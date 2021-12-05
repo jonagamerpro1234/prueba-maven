@@ -3,7 +3,6 @@
   <groupId>jss.test</groupId>
   <artifactId>Test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
   
   	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,41 +20,7 @@
   
   <build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-shade-plugin</artifactId>
-				<version>3.2.4</version>
-				<configuration>
-					<createDependencyReducedPom>false</createDependencyReducedPom>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>shade</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.2.0</version>
-				<configuration>
-					<archive>
-						<manifestEntries>
-							<Built-By>jonagamerpro1234</Built-By>
-							<Version>${project.version}</Version>
-						</manifestEntries>
-					</archive>
-					<!-- <outputDirectory>C:\Users\Alumno\Desktop\LocalHost\Server\1.8\plugins</outputDirectory> -->
-				</configuration>
-			</plugin>
+			<plugin></plugin>
 		</plugins>
   </build>
   

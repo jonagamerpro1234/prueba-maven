@@ -14,13 +14,12 @@
         <repository>
           <id>central</id>
           <url>https://repo1.maven.org/maven2</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
         </repository>
         <repository>
           <id>github</id>
           <url>https://maven.pkg.github.com/jonagamerpro1234/prueba-maven</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
         </repository>
       </repositories>
     </profile>
